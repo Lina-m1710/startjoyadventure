@@ -1,0 +1,38 @@
+.header-top-terms .header-nav-item{
+    color: #0e022e;
+    @media screen and(max-width:768px){
+        color: #ffffff;
+    }
+}
+.header-top-terms .header-nav-item::before{
+    background-color: #0e022e;
+    @media screen and(max-width:768px){
+        background-color: #ffffff;
+    }
+}
+.terms{
+    padding: 140px 0 40px;
+    @media screen and(max-width:768px){
+        padding: 100px 0 40px;
+    }
+}
+
+.terms-text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+    font-size: 18px;
+    line-height: 28px;
+    color: #000000;
+}
+.text{
+    padding-left: 20px;
+}
+.terms-inner ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
